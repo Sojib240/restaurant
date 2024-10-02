@@ -12,23 +12,23 @@ const WhyUs = () => {
         { id: 4, image: <PiMosqueFill />, title: "authentic arabic cuisine" },
     ];
     return (
-        <div className="w-full pt-10 pb-32">
+        <div className="w-full pt-10 pb-32 px-5">
             <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                 why us?
             </h2>
-            <div className="max-w-[1300px] mx-auto flex justify-between gap-10 items-center">
+            <div className="max-w-[1300px] mx-auto flex justify-between items-start flex-wrap gap-y-5 sm:flex-wrap lg:flex-nowrap lg:gap-0">
                 {whyUsData.map((item) => {
                     return (
                         <div
                             key={item.id}
-                            className={`flex flex-col items-center gap-5 w-1/4 ${
-                                item.id == 4 ? "border-none" : "border-r-[1px]"
+                            className={`flex flex-col items-center p-10 gap-3 w-full sm:w-1/2 lg:w-1/4 border-r-[1px] ${
+                                item.id == 0 && "border-l-[1px]"
                             }`}
                         >
                             <span className="text-6xl text-orangeShade-300">
                                 {item.image}
                             </span>
-                            <h2 className="text-[25px] capitalize font-JosefinSans_semibold">
+                            <h2 className="text-[25px] capitalize font-JosefinSans_semibold text-center">
                                 {item.title}
                             </h2>
                         </div>

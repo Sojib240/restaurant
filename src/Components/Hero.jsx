@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
     return (
-        <div className="heroBg w-full px-6 bg-orangeShade-300 relative z-50 overflow-hidden">
+        <div className="heroBg w-full px-5 bg-orangeShade-300 relative z-50 overflow-hidden">
             {/* <div className="w-[50%] absolute right-0 bottom-0 h-auto">
                 <img className="w-full" src="/Group 1.svg" alt="" />
             </div> */}

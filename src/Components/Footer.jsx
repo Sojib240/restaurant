@@ -12,8 +12,8 @@ const Footer = () => {
                 <img className="w-full" src="/wave.svg" alt="" />
             </div>
             <div className="max-w-[1300px] mx-auto">
-                <div className="w-full flex justify-between">
-                    <div className="flex gap-28">
+                <div className="w-full flex justify-between gap-10 flex-wrap lg:flex-nowrap lg:gap-0">
+                    <div className="flex gap-10 flex-wrap lg:flex-nowrap lg:gap-10">
                         <div className="flex flex-col gap-2">
                             <h2 className="text-xl font-JosefinSans_bold font-bold text-white uppercase">
                                 USEFUL LINKS
@@ -50,7 +50,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex gap-10">
+                    <div className="flex gap-10 flex-wrap lg:flex-nowrap lg:gap-10">
                         <div className="flex flex-col gap-2">
                             <h2 className="text-xl font-JosefinSans_bold text-white uppercase">
                                 CONTACT
@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
                     <div className=""></div>
                 </div>
-                <h2 className="font-JosefinSans_Regular text-zinc-200 text-lg pt-20">
+                <h2 className="font-JosefinSans_Regular text-zinc-200 text-base text-center pt-10 lg:text-lg lg:pt-20 lg:text-left">
                     @ Copyrights 2020 - 2021 Arab Nation. All Rights Reserved.
                 </h2>
             </div>

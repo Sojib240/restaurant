@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="w-full py-32 px-6 flex items-center bg-greenShade-300 relative overflow-hidden">
+        <div className="w-full py-32 px-5 flex items-center bg-greenShade-300 relative overflow-hidden">
             <div className="bg w-[101%] absolute -top-[1px] -right-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave4.svg" alt="" />
             </div>

@@ -27,7 +27,7 @@ const ContactUs = () => {
         },
     ];
     return (
-        <div className="w-full pt-20 pb-28 px-6">
+        <div className="w-full pt-20 pb-28 px-5">
             <div className="max-w-[1300px] mx-auto">
                 <h2 className="text-[32px] font-Hidayatullah text-center pb-14 capitalize">
                     Contact us
@@ -40,9 +40,9 @@ const ContactUs = () => {
                         referrerpolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </div>
-                <div className="flex gap-10">
-                    <div className="w-1/2">
-                        <form className="flex flex-col gap-5">
+                <div className="flex gap-10 flex-wrap lg:flex-nowrap">
+                    <div className="w-full lg:w-1/2">
+                        <form className="flex flex-col gap-5 ">
                             <input
                                 className="w-full border-[1px] py-4 border-zinc-300 outline-none pl-4 text-[20px] rounded-md font-JosefinSans_Regular capitalize"
                                 type="text"
@@ -75,7 +75,7 @@ const ContactUs = () => {
                             />
                         </form>
                     </div>
-                    <div className="w-1/2 flex pb-7 px-7 flex-col gap-12">
+                    <div className="w-full flex pb-7 px-0 flex-col gap-12 mt-10 lg:mt-0 lg:w-1/2 lg:px-7">
                         {contactData.map((item) => {
                             return (
                                 <div key={item.id} className="flex gap-4">

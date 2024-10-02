@@ -45,7 +45,7 @@ const Testimonial = () => {
         },
     ];
     return (
-        <div className="w-full pt-40 pb-40 testimonial bg-greenShade-300 relative overflow-hidden">
+        <div className="w-full pt-40 pb-40 px-5 testimonial bg-greenShade-300 relative overflow-hidden">
             <div className="bg w-[101%] absolute -bottom-[1px] -left-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
@@ -61,6 +61,20 @@ const Testimonial = () => {
                         autoplay={{
                             delay: 4000,
                             disableOnInteraction: false,
+                        }}
+                        breakpoints={{
+                            280: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            800: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            1024: {
+                                slidesPerView: 2,
+                                spaceBetween: 30,
+                            },
                         }}
                         navigation={false}
                         modules={[Autoplay]}

@@ -28,17 +28,20 @@ const Serve = () => {
         },
     ];
     return (
-        <div className="serve px-6 pb-20 pt-5 bg-opacity-0">
+        <div className="serve px-5 pb-20 pt-5 bg-opacity-0">
             <div className="mx-auto max-w-[1800px]">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                     We Serve
                 </h2>
-                <div className="flex gap-10">
+                <div className="flex gap-0 flex-wrap sm:flex-wrap lg:flex-nowrap">
                     {cardData.map((item) => {
                         return (
-                            <div key={item.id} className="card w-1/4 p-4">
+                            <div
+                                key={item.id}
+                                className="card w-full pb-10 sm:w-1/2 sm:p-4 lg:w-1/4 lg:p-4"
+                            >
                                 <div className="image bg-greenShade-300 overflow-hidden rounded-tl-[50px] rounded-tr-[50px] p-10 relative ">
-                                    <div className="bg1 w-[101%] absolute -bottom-[1px] -left-[2px]">
+                                    <div className="bg1 w-[102%] absolute -bottom-[1px] -left-[2px]">
                                         <img
                                             className="w-full"
                                             src="/wave3.svg"

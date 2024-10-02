@@ -35,7 +35,7 @@ const VideoGallery = () => {
     ];
 
     return (
-        <div className="w-full px-6 py-20">
+        <div className="w-full px-5 py-20">
             <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                 Videos
             </h2>
@@ -50,6 +50,16 @@ const VideoGallery = () => {
                         //     delay: 4000,
                         //     disableOnInteraction: false,
                         // }}
+                        breakpoints={{
+                            280: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            992: {
+                                slidesPerView: 2,
+                                spaceBetween: 30,
+                            },
+                        }}
                         pagination={{
                             clickable: true,
                         }}

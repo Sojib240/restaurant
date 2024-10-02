@@ -12,22 +12,22 @@ const Facilities = () => {
         { id: 4, icon: <GiPartyPopper />, title: "Party orders" },
     ];
     return (
-        <div className=" Facilities pt-20 pb-28 px-6 w-full relative">
+        <div className=" Facilities pt-20 pb-28 px-5 w-full relative">
             <div className="w-full">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                     Facilities
                 </h2>
-                <div className="w-full flex items-center max-w-[1300px] mx-auto ">
+                <div className="max-w-[1300px] mx-auto flex justify-between items-start flex-wrap gap-y-5 sm:flex-wrap lg:flex-nowrap lg:gap-0">
                     {facilitiesData.map((item) => {
                         return (
                             <div
                                 key={item.id}
-                                className="w-1/4 flex flex-col justify-between items-center"
+                                className="flex flex-col items-center justify-center p-10 gap-1 w-full sm:w-1/2 lg:w-1/4"
                             >
                                 <span className="p-7 rounded-2xl bg-greenShade-100 text-5xl text-white mb-4">
                                     {item.icon}
                                 </span>
-                                <h2 className="text-[25px] font-JosefinSans_semibold">
+                                <h2 className="text-[25px] font-JosefinSans_semibold text-center">
                                     {item.title}
                                 </h2>
                             </div>
