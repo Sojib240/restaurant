@@ -12,7 +12,7 @@ const WhyUs = () => {
         { id: 4, image: <PiMosqueFill />, title: "authentic arabic cuisine" },
     ];
     return (
-        <div className="w-full pt-24 pb-32">
+        <div className="w-full pt-10 pb-32">
             <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                 why us?
             </h2>
