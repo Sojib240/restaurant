@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Hidayatullah';
+    src: url('../src/Fonts/Hidayatullah.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Serenata_Regular';
+    src: url('../src/Fonts/Serenata-Vantages-Regular.woff2') format('woff2'),
+}
+
+/* .serve {
+    background: url('/bg1.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+} */
+.bg1 {
+    transform: rotateY(180deg);
+}
+
+textarea {
+    resize: none;
+}
+
+/* .testimonial {
+    background: url('/bg1.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+} */
