@@ -4,10 +4,10 @@ const About = () => {
     return (
         <div className="w-full py-32 px-6 flex items-center bg-greenShade-300 relative overflow-hidden">
             <div className="bg w-[101%] absolute -top-[1px] -right-[2px] rotate-180 z-40">
-                <img className="w-full" src="/wave.svg" alt="" />
+                <img className="w-full" src="/wave4.svg" alt="" />
             </div>
             <div className="bg1 w-[101%] absolute -bottom-[1px] -left-[2px] z-40">
-                <img className="w-full" src="/wave.svg" alt="" />
+                <img className="w-full" src="/wave4.svg" alt="" />
             </div>
             <div className="w-[6%] absolute top-0 right-0 z-30 h-auto mr-10">
                 <img className="w-full" src="/lamp.png" alt="" />

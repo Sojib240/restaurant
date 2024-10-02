@@ -28,7 +28,7 @@ const Serve = () => {
         },
     ];
     return (
-        <div className="serve px-6 py-20 bg-opacity-0">
+        <div className="serve px-6 pb-20 pt-5 bg-opacity-0">
             <div className="mx-auto max-w-[1800px]">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                     We Serve

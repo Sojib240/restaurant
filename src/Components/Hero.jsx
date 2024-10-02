@@ -7,10 +7,10 @@ const Hero = () => {
                 <img className="w-full" src="/Group 1.svg" alt="" />
             </div> */}
 
-            <div className="bg w-[101%] absolute -bottom-[1px] left-0 ">
-                <img className="w-full" src="/wave4.svg" alt="" />
+            <div className="bg w-[101%] absolute -bottom-[1px] left-0 rotate-180">
+                <img className="w-full" src="/wave2.svg" alt="" />
             </div>
-            <div className="max-w-[1800px] pt-96 pb-40 mx-auto relative">
+            <div className="max-w-[1800px] pt-[410px] pb-40 mx-auto relative">
                 <div className="w-[6%] absolute top-0 right-0 z-50 h-auto">
                     <img className="w-full" src="/lamp.png" alt="" />
                 </div>
