@@ -18,8 +18,8 @@ const HomePage = () => {
             <Facilities />
             <About />
             <SignatureDishes />
-            <WhyUs />
             <Testimonial />
+            <WhyUs />
             <VideoGallery />
             <ContactUs />
         </div>

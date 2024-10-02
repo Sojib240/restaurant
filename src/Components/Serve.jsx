@@ -36,7 +36,7 @@ const Serve = () => {
                 <div className="flex gap-10">
                     {cardData.map((item) => {
                         return (
-                            <div className="card w-1/4 p-4">
+                            <div key={item.id} className="card w-1/4 p-4">
                                 <div className="image bg-greenShade-300 overflow-hidden rounded-tl-[50px] rounded-tr-[50px] p-10 relative ">
                                     <div className="bg1 w-[101%] absolute -bottom-[1px] -left-[2px]">
                                         <img

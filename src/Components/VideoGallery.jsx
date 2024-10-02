@@ -1,15 +1,38 @@
-import React, { useEffect } from "react";
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowLeft } from "react-icons/fa";
+import React from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import { Navigation } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
-// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Navigation } from "swiper/modules";
 
 const VideoGallery = () => {
-    const swiper = useSwiper();
+    const videoGalleryData = [
+        {
+            id: 1,
+            video: 'https://www.youtube.com/embed/YZ84iQrbYjw?si=xQjjRJzqevhqpTop" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+        },
+        {
+            id: 2,
+            video: 'https://www.youtube.com/embed/eU-qPYse1JI?si=5v08m-DVuWcV3Pmu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+        },
+        {
+            id: 3,
+            video: 'https://www.youtube.com/embed/xOMMV_qXcQ8?si=nZSW0bTcPFzMPXV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+        },
+        {
+            id: 4,
+            video: 'https://www.youtube.com/embed/Rwe5Aw3KPHY?si=dj4IBQCJp9FPQB0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+        },
+        {
+            id: 5,
+            video: 'https://www.youtube.com/embed/njX2bu-_Vw4?si=NHGqIW6MTp9nLg9r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+        },
+    ];
 
     return (
         <div className="w-full px-6 py-20">
@@ -17,102 +40,40 @@ const VideoGallery = () => {
                 Videos
             </h2>
             <div className="max-w-[1300px] mx-auto">
-                <div className="slider relative w-full">
+                <div className="slider mt-6 pb-5">
                     <Swiper
-                        spaceBetween={10}
+                        loop
                         slidesPerView={2}
-                        // navigation={{
-                        //     nextEl: ".arrowLeft",
-                        //     prevEl: ".arrowRight",
+                        spaceBetween={30}
+                        // centeredSlides={true}
+                        // autoplay={{
+                        //     delay: 4000,
+                        //     disableOnInteraction: false,
                         // }}
-                        // navigation={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        navigation={true}
                         modules={[Navigation]}
-                        className=""
-                        // onSlideChange={() => console.log("slide change")}
-                        // onSwiper={(swiper) => console.log(swiper)}
+                        className="mySwiper"
                     >
-                        <SwiperSlide>
-                            <iframe
-                                className="w-[100%] h-[350px]"
-                                src="https://www.youtube.com/embed/muDpH2Ty2tg?si=WEFb8LlzaQEuFbDG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <iframe
-                                className="w-[100%] h-[350px]"
-                                src="https://www.youtube.com/embed/muDpH2Ty2tg?si=WEFb8LlzaQEuFbDG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <iframe
-                                className="w-[100%] h-[350px]"
-                                src="https://www.youtube.com/embed/muDpH2Ty2tg?si=WEFb8LlzaQEuFbDG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <iframe
-                                className="w-[100%] h-[350px]"
-                                src="https://www.youtube.com/embed/muDpH2Ty2tg?si=WEFb8LlzaQEuFbDG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <iframe
-                                className="w-[100%] h-[350px]"
-                                src="https://www.youtube.com/embed/muDpH2Ty2tg?si=WEFb8LlzaQEuFbDG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <iframe
-                                className="w-[100%] h-[350px]"
-                                src="https://www.youtube.com/embed/muDpH2Ty2tg?si=WEFb8LlzaQEuFbDG"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                allowfullscreen
-                            ></iframe>
-                        </SwiperSlide>
-                        <div className="w-full h-full absolute top-0 left-0 flex justify-between items-center z-50"></div>
+                        {videoGalleryData.map((item) => {
+                            return (
+                                <SwiperSlide
+                                    key={item.id}
+                                    className=" cursor-move"
+                                >
+                                    <div className="flex flex-col justify-center items-center text-center h-[380px]">
+                                        <iframe
+                                            className="w-full h-full"
+                                            src={item.video}
+                                            allowfullscreen
+                                        ></iframe>
+                                    </div>
+                                </SwiperSlide>
+                            );
+                        })}
                     </Swiper>
-                    {/* <div className="">
-                            <span
-                                onClick={() => swiper.slidePrev()}
-                                className="arrowLeft "
-                            >
-                                <FaArrowLeft />
-                            </span>
-                            <span
-                                onClick={() => swiper.slideNext()}
-                                className="arrowRight "
-                            >
-                                <FaArrowRight />
-                            </span>
-                            </div> */}
                 </div>
             </div>
         </div>

@@ -7,16 +7,11 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className="w-full bg-greenShade-300 px-6 pt-24 pb-8 relative overflow-hidden">
+        <div className="w-full bg-greenShade-300 px-6 pt-32 pb-8 relative overflow-hidden">
             <div className="bg w-[101%] absolute -top-[1px] -right-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave.svg" alt="" />
             </div>
             <div className="max-w-[1300px] mx-auto">
-                <div className="flex justify-center w-full mb-16">
-                    <div className="logo w-[120px]">
-                        <img src="/logo.png" alt="" />
-                    </div>
-                </div>
                 <div className="w-full flex justify-between">
                     <div className="flex gap-28">
                         <div className="flex flex-col gap-2">

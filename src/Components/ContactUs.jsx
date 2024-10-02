@@ -78,7 +78,7 @@ const ContactUs = () => {
                     <div className="w-1/2 flex pb-7 px-7 flex-col gap-12">
                         {contactData.map((item) => {
                             return (
-                                <div className="flex gap-4">
+                                <div key={item.id} className="flex gap-4">
                                     <span className="text-4xl text-orangeShade-300">
                                         {item.logo}
                                     </span>
