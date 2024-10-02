@@ -35,7 +35,7 @@ const VideoGallery = () => {
     ];
 
     return (
-        <div className="w-full px-5 py-20">
+        <div className="w-full px-6 py-5 sm:py-20">
             <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                 Videos
             </h2>

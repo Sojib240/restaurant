@@ -12,22 +12,22 @@ const Facilities = () => {
         { id: 4, icon: <GiPartyPopper />, title: "Party orders" },
     ];
     return (
-        <div className=" Facilities pt-20 pb-28 px-5 w-full relative">
+        <div className=" Facilities py-10 sm:py-28 px-5 w-full relative">
             <div className="w-full">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                     Facilities
                 </h2>
-                <div className="max-w-[1300px] mx-auto flex justify-between items-start flex-wrap gap-y-5 sm:flex-wrap lg:flex-nowrap lg:gap-0">
+                <div className="max-w-[1300px] mx-auto flex justify-between items-start flex-wrap gap-y-5 lg:flex-nowrap lg:gap-0 lg:w-full">
                     {facilitiesData.map((item) => {
                         return (
                             <div
                                 key={item.id}
-                                className="flex flex-col items-center justify-center p-10 gap-1 w-full sm:w-1/2 lg:w-1/4"
+                                className="flex flex-col items-center justify-center p-5 gap-1 w-1/2 lg:w-1/4"
                             >
                                 <span className="p-7 rounded-2xl bg-greenShade-100 text-5xl text-white mb-4">
                                     {item.icon}
                                 </span>
-                                <h2 className="text-[25px] font-JosefinSans_semibold text-center">
+                                <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px]">
                                     {item.title}
                                 </h2>
                             </div>

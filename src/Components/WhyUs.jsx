@@ -16,19 +16,19 @@ const WhyUs = () => {
             <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                 why us?
             </h2>
-            <div className="max-w-[1300px] mx-auto flex justify-between items-start flex-wrap gap-y-5 sm:flex-wrap lg:flex-nowrap lg:gap-0">
+            <div className="max-w-[1300px] mx-auto flex justify-between items-start flex-wrap gap-y-5 lg:flex-nowrap lg:gap-0 lg:w-full">
                 {whyUsData.map((item) => {
                     return (
                         <div
                             key={item.id}
-                            className={`flex flex-col items-center p-10 gap-3 w-full sm:w-1/2 lg:w-1/4 border-r-[1px] ${
+                            className={`flex flex-col items-center justify-center p-5 gap-1 w-1/2 lg:w-1/4 ${
                                 item.id == 0 && "border-l-[1px]"
                             }`}
                         >
                             <span className="text-6xl text-orangeShade-300">
                                 {item.image}
                             </span>
-                            <h2 className="text-[25px] capitalize font-JosefinSans_semibold text-center">
+                            <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px]">
                                 {item.title}
                             </h2>
                         </div>
