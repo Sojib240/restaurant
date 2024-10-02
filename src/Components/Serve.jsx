@@ -51,10 +51,10 @@ const Serve = () => {
                                         alt=""
                                     />
                                 </div>
-                                <h2 className="text-center text-[25px] mt-6 font-Serenata_Regular font-bold capitalize">
+                                <h2 className="text-center text-[25px] mt-6 font-JosefinSans_semibold capitalize">
                                     {item.title}
                                 </h2>
-                                <p className="text-lg text-center capitalize leading-6 pt-3 font-Serenata_Regular">
+                                <p className="text-lg text-center capitalize leading-6 pt-3 font-JosefinSans_Regular">
                                     {item.desc}
                                 </p>
                             </div>

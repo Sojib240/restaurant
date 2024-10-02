@@ -8,16 +8,16 @@ const Navbar = () => {
                     <img className="w-full" src="/logo_name.png" alt="" />
                 </div>
                 <div className="menu flex items-center gap-5">
-                    <a className="font-Serenata_Regular text-white text-xl" href="">
+                    <a className="font-JosefinSans_semibold text-white text-xl" href="">
                         Home
                     </a>
-                    <a className="font-Serenata_Regular text-white text-xl" href="">
+                    <a className="font-JosefinSans_semibold text-white text-xl" href="">
                         About
                     </a>
-                    <a className="font-Serenata_Regular text-white text-xl" href="">
+                    <a className="font-JosefinSans_semibold text-white text-xl" href="">
                         Menu
                     </a>
-                    <a className="font-Serenata_Regular text-white text-xl" href="">
+                    <a className="font-JosefinSans_semibold text-white text-xl" href="">
                         Contact
                     </a>
                 </div>

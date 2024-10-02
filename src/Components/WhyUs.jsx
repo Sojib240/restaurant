@@ -28,7 +28,7 @@ const WhyUs = () => {
                             <span className="text-6xl text-orangeShade-300">
                                 {item.image}
                             </span>
-                            <h2 className="text-[20px] capitalize font-Serenata_Regular">
+                            <h2 className="text-[25px] capitalize font-JosefinSans_semibold">
                                 {item.title}
                             </h2>
                         </div>

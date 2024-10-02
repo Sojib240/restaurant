@@ -27,7 +27,7 @@ const Facilities = () => {
                                 <span className="p-7 rounded-2xl bg-greenShade-100 text-5xl text-white mb-4">
                                     {item.icon}
                                 </span>
-                                <h2 className="text-[20px] font-Serenata_Regular">
+                                <h2 className="text-[25px] font-JosefinSans_semibold">
                                     {item.title}
                                 </h2>
                             </div>

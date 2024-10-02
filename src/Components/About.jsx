@@ -17,7 +17,7 @@ const About = () => {
                     <h2 className="text-white text-[45px] font-Hidayatullah pb-6 text-center">
                         About us
                     </h2>
-                    <p className="text-white text-[25px] font-Serenata_Regular text-center">
+                    <p className="text-white text-[25px] font-JosefinSans_Regular text-center">
                         We, Arab Nation, situated at Malad West, Mumbai,
                         Maharashtra are one of the leading Arabic restaurants
                         and we constantly strive to serve the most authentic

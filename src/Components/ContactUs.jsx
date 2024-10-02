@@ -44,32 +44,32 @@ const ContactUs = () => {
                     <div className="w-1/2">
                         <form className="flex flex-col gap-5">
                             <input
-                                className="w-full border-[1px] py-4 border-zinc-300 outline-none pl-4 text-[20px] rounded-md"
+                                className="w-full border-[1px] py-4 border-zinc-300 outline-none pl-4 text-[20px] rounded-md font-JosefinSans_Regular capitalize"
                                 type="text"
                                 name=""
                                 id=""
                                 placeholder="Full name"
                             />
                             <input
-                                className="w-full border-[1px] py-4 border-zinc-300 outline-none pl-4 text-[20px] rounded-md"
+                                className="w-full border-[1px] py-4 border-zinc-300 outline-none pl-4 text-[20px] rounded-md font-JosefinSans_Regular capitalize"
                                 type="number"
                                 name=""
                                 id=""
                                 placeholder="Phone number"
                             />
                             <input
-                                className="w-full border-[1px] py-4 border-zinc-300 outline-none pl-4 text-[20px] rounded-md"
+                                className="w-full border-[1px] py-4 border-zinc-300 outline-none pl-4 text-[20px] rounded-md font-JosefinSans_Regular capitalize"
                                 type="email"
                                 name=""
                                 id=""
                                 placeholder="Email id"
                             />
                             <textarea
-                                className="w-full h-[220px] border-[1px] border-zinc-300 outline-none pl-4 pt-2 text-[20px] rounded-md"
+                                className="w-full h-[220px] border-[1px] border-zinc-300 outline-none pl-4 pt-2 text-[20px] rounded-md font-JosefinSans_Regular capitalize"
                                 placeholder="Message"
                             ></textarea>
                             <input
-                                className="p-4 rounded-md border-[1px] bg-orangeShade-300 text-white text-[20px] transition-all duration-100 font-Nunito_Regular capitalize hover:text-white hover:hover:bg-greenShade-300"
+                                className="p-4 rounded-md border-[1px] bg-orangeShade-300 text-white text-[20px] transition-all duration-100 font-Nunito_Regular capitalize hover:text-white hover:hover:bg-greenShade-300 font-JosefinSans_Regular"
                                 type="submit"
                                 value="submit"
                             />
@@ -83,10 +83,10 @@ const ContactUs = () => {
                                         {item.logo}
                                     </span>
                                     <div className="flex flex-col">
-                                        <h2 className="font-Serenata_Regular text-[20px] uppercase pb-2 leading-none">
+                                        <h2 className="font-JosefinSans_bold text-[20px] uppercase pb-2 leading-none">
                                             {item.title}
                                         </h2>
-                                        <p className=" font-Serenata_Regular text-[16px] capitalize leading-5">
+                                        <p className=" font-JosefinSans_Regular text-[18px] capitalize leading-5">
                                             {item.desc}
                                         </p>
                                     </div>

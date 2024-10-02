@@ -12,14 +12,21 @@
     src: url('../src/Fonts/Serenata-Vantages-Regular.woff2') format('woff2'),
 }
 
-/* .serve {
-    background: url('/bg1.png');
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+@font-face {
+    font-family: 'JosefinSans_Regular';
+    src: url('../src/Fonts/JosefinSans-Regular.woff2') format('woff2'),
+}
 
-} */
+@font-face {
+    font-family: 'JosefinSans_semibold';
+    src: url('../src/Fonts/JosefinSans-SemiBold.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'JosefinSans_bold';
+    src: url('../src/Fonts/JosefinSans-Bold.woff2') format('woff2'),
+}
+
 .bg1 {
     transform: rotateY(180deg);
 }
@@ -27,12 +34,3 @@
 textarea {
     resize: none;
 }
-
-/* .testimonial {
-    background: url('/bg1.svg');
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-} */

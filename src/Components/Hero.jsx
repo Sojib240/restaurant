@@ -25,13 +25,13 @@ const Hero = () => {
                             </h2>
                         </div>
                         <div className="flex gap-3">
-                            <button className="text-white bg-greenShade-100 px-10 py-3 rounded-full text-[20px] capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-Serenata_Regular">
+                            <button className="text-white bg-greenShade-100 px-10 py-3 rounded-full text-[20px] capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular">
                                 Menu
                             </button>
-                            <button className="text-white bg-greenShade-100 px-10 py-3 rounded-full text-[20px] capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-Serenata_Regular">
+                            <button className="text-white bg-greenShade-100 px-10 py-3 rounded-full text-[20px] capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular">
                                 order online
                             </button>
-                            <button className="text-white bg-greenShade-100 px-10 py-3 rounded-full text-[20px] capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-Serenata_Regular">
+                            <button className="text-white bg-greenShade-100 px-10 py-3 rounded-full text-[20px] capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular">
                                 book a table
                             </button>
                         </div>

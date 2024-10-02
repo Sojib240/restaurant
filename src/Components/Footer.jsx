@@ -20,48 +20,64 @@ const Footer = () => {
                 <div className="w-full flex justify-between">
                     <div className="flex gap-28">
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-xl font-Serenata_Regular font-bold text-white">
+                            <h2 className="text-xl font-JosefinSans_bold font-bold text-white uppercase">
                                 USEFUL LINKS
                             </h2>
                             <div className="">
-                                <p className="text-white">PRIVACY POLICY</p>
-                                <p className="text-white">ORDER ONLINE</p>
-                                <p className="text-white">WE SERVE</p>
-                                <p className="text-white">ABOUT US</p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    privacy polict
+                                </p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    order online
+                                </p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    we serve
+                                </p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    about us
+                                </p>
                             </div>
                         </div>
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-xl font-Serenata_Regular font-bold text-white">
+                            <h2 className="text-xl font-JosefinSans_bold font-bold text-white uppercase">
                                 HOME
                             </h2>
                             <div className="">
-                                <p className="text-white">BOOK A TABLE</p>
-                                <p className="text-white">FACILITIES</p>
-                                <p className="text-white">WHY US</p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    book a table
+                                </p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    facilities
+                                </p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    why us{" "}
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div className="flex gap-10">
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-xl font-Serenata_Regular font-bold text-white">
+                            <h2 className="text-xl font-JosefinSans_bold text-white uppercase">
                                 CONTACT
                             </h2>
                             <div className="">
-                                <p className="text-white">
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
                                     Palm Court Bldg M, 5011B, 5th Floor, New
                                     <br />
                                     Link Road, Beside Goregaon Sports <br />
                                     Complex Malad West, Mumbai. <br /> 400064,
                                     Maharashtra
                                 </p>
-                                <p className="text-white">+91-8888888888</p>
-                                <p className="text-white">
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                    +91-8888888888
+                                </p>
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
                                     websupport@justdial.com
                                 </p>
                             </div>
                         </div>
                         <div className="flex flex-col gap-2">
-                            <h2 className="text-xl font-Serenata_Regular font-bold text-white">
+                            <h2 className="text-xl font-JosefinSans_bold font-bold text-white uppercase">
                                 CONNECT
                             </h2>
                             <div className="flex gap-3">
@@ -82,7 +98,7 @@ const Footer = () => {
                     </div>
                     <div className=""></div>
                 </div>
-                <h2 className="font-Serenata_Regular text-white text-lg pt-20">
+                <h2 className="font-JosefinSans_Regular text-zinc-200 text-lg pt-20">
                     @ Copyrights 2020 - 2021 Arab Nation. All Rights Reserved.
                 </h2>
             </div>

@@ -18,6 +18,9 @@ export default {
             fontFamily: {
                 Hidayatullah: ["Hidayatullah", "sans-serif"],
                 Serenata_Regular: ["Serenata_Regular", "sans-serif"],
+                JosefinSans_Regular: ["JosefinSans_Regular", "sans-serif"],
+                JosefinSans_semibold: ["JosefinSans_semibold", "sans-serif"],
+                JosefinSans_bold: ["JosefinSans_bold", "sans-serif"],
             },
         },
     },
