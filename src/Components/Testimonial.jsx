@@ -5,11 +5,11 @@ import { FaQuoteLeft } from "react-icons/fa6";
 
 // Import Swiper styles
 import "swiper/css";
-// import "swiper/css/pagination";
+import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const Testimonial = () => {
     const testimonialData = [
@@ -45,7 +45,7 @@ const Testimonial = () => {
         },
     ];
     return (
-        <div className="w-full pt-40 pb-40 px-5 testimonial bg-greenShade-300 relative overflow-hidden">
+        <div className="w-full pt-40 pb-28 px-5 testimonial bg-greenShade-300 relative overflow-hidden">
             <div className="bg w-[101%] absolute -bottom-[1px] -left-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
@@ -53,7 +53,7 @@ const Testimonial = () => {
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
             <div className="max-w-[1300px] mx-auto">
-                <div className="slider mt-6 pb-5">
+                <div className="slider">
                     <Swiper
                         loop
                         slidesPerView={2}
@@ -77,8 +77,11 @@ const Testimonial = () => {
                             },
                         }}
                         navigation={false}
-                        modules={[Autoplay]}
-                        className="mySwiper"
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Autoplay, Pagination]}
+                        className="mySwiper pb-20"
                     >
                         {testimonialData.map((item) => {
                             return (

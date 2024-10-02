@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="w-full py-24 sm:py-32 px-5 flex items-center bg-greenShade-300 relative overflow-hidden">
+        <div className="w-full pt-20 pb-16 sm:py-32 px-5 flex items-center bg-greenShade-300 relative overflow-hidden">
             <div className="bg w-[101%] absolute -top-[1px] -right-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave4.svg" alt="" />
             </div>
@@ -12,12 +12,12 @@ const About = () => {
             <div className="w-[6%] absolute top-0 right-0 z-30 h-auto mr-10">
                 <img className="w-full" src="/lamp.png" alt="" />
             </div>
-            <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-14 flex-wrap lg:flex-nowrap">
+            <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-2 sm:gap-14 flex-wrap lg:flex-nowrap">
                 <div className="w-full lg:w-1/2">
                     <h2 className="text-white text-[45px] font-Hidayatullah pb-6 text-center">
                         About us
                     </h2>
-                    <p className="text-white text-[25px] font-JosefinSans_Regular text-center">
+                    <p className="text-white text-lg sm:text-[25px] font-JosefinSans_Regular text-center">
                         We, Arab Nation, situated at Malad West, Mumbai,
                         Maharashtra are one of the leading Arabic restaurants
                         and we constantly strive to serve the most authentic

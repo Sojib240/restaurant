@@ -54,3 +54,11 @@ textarea {
     color: black;
     border: 1px solid #000;
 }
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #F18033;
+}
+
+span.swiper-pagination-bullet {
+    background-color: white;
+}
