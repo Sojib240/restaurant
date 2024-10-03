@@ -45,11 +45,6 @@ const VideoGallery = () => {
                         loop
                         slidesPerView={2}
                         spaceBetween={30}
-                        // centeredSlides={true}
-                        // autoplay={{
-                        //     delay: 4000,
-                        //     disableOnInteraction: false,
-                        // }}
                         breakpoints={{
                             280: {
                                 slidesPerView: 1,
@@ -75,7 +70,7 @@ const VideoGallery = () => {
                                 >
                                     <div className="flex flex-col justify-center items-center text-center h-[380px]">
                                         <iframe
-                                            className="w-full h-full"
+                                            className="w-full h-full rounded-md"
                                             src={item.video}
                                             allowfullscreen
                                         ></iframe>

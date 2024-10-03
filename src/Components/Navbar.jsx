@@ -20,53 +20,53 @@ const Navbar = () => {
     return (
         <header className="w-full">
             <div
-                className={`navbar w-full px-6 py-5 absolute top-0 left-0 z-[999999999] lg:px-12`}
+                className={`navbar w-full px-6 pt-10 pb-5 absolute top-0 left-0 z-[999999999]`}
             >
-                <div className=" w-full flex justify-between items-center gap-4">
+                <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-4">
                     <div className="logo w-32 sm:w-40 pb-2">
                         <img className="w-full" src="/logo_name.png" alt="" />
                     </div>
-                    <div className="menu items-center gap-6 lg:flex">
+                    <div className="menu items-center gap-3 flex md:gap-5 lg:gap-6">
                         <a
-                            className="link relative font-JosefinSans_semibold uppercase text-white text-base"
+                            className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                             href=""
                         >
                             Home
                         </a>
                         <a
-                            className="link relative font-JosefinSans_semibold uppercase text-white text-base"
+                            className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                             href=""
                         >
                             About
                         </a>
                         <a
-                            className="link relative font-JosefinSans_semibold uppercase text-white text-base"
+                            className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                             href=""
                         >
                             Menu
                         </a>
                         <a
-                            className="link relative font-JosefinSans_semibold uppercase text-white text-base"
+                            className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                             href=""
                         >
                             Must Try
                         </a>
                         <a
-                            className="link relative font-JosefinSans_semibold uppercase text-white text-base"
+                            className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                             href=""
                         >
                             Blog
                         </a>
 
                         <a
-                            className="link relative font-JosefinSans_semibold uppercase text-white text-base"
+                            className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                             href=""
                         >
                             Contact
                         </a>
                     </div>
-                    <div className="menu-btn w-6 h-6 rounded-md bg-greenShade-300 justify-center items-center flex lg:hidden cursor-poinlink relative ter">
-                        <span className="text-base text-white">
+                    <div className="menu-btn w-6 h-6 rounded-md bg-greenShade-300 justify-center items-center hidden md:hidden cursor-poinlink relative">
+                        <span className="text-lg text-white">
                             <RiMenu4Fill />
                         </span>
                     </div>
@@ -80,51 +80,51 @@ const Navbar = () => {
                         : "-translate-y-[100%]"
                 } fixed top-0 left-0  z-[999999999] lg:px-12 transition-all duration-500 bg-white`}
             >
-                <div className=" w-full flex justify-between items-center gap-4">
-                    <div className="logo w-32 sm:w-32 pb-2">
+                <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-4">
+                    <div className="logo w-32 md:w-40 pb-2">
                         <img className="w-full" src="/logo_name.png" alt="" />
                     </div>
                     <div className="menu items-center gap-5 lg:flex">
                         <a
-                            className="link2 relative font-JosefinSans_semibold uppercase text-black text-base"
+                            className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                             href=""
                         >
                             Home
                         </a>
                         <a
-                            className="link2 relative font-JosefinSans_semibold uppercase text-black text-base"
+                            className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                             href=""
                         >
                             About
                         </a>
                         <a
-                            className="link2 relative font-JosefinSans_semibold uppercase text-black text-base"
+                            className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                             href=""
                         >
                             Menu
                         </a>
                         <a
-                            className="link2 relative font-JosefinSans_semibold uppercase text-black text-base"
+                            className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                             href=""
                         >
                             Must Try
                         </a>
                         <a
-                            className="link2 relative font-JosefinSans_semibold uppercase text-black text-base"
+                            className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                             href=""
                         >
                             Blog
                         </a>
 
                         <a
-                            className="link2 relative font-JosefinSans_semibold uppercase text-black text-base"
+                            className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                             href=""
                         >
                             Contact
                         </a>
                     </div>
                     <div className="menu-btn w-6 h-6 rounded-md bg-greenShade-300 justify-center items-center flex lg:hidden cursor-poinlink relative ter">
-                        <span className="text-base text-white">
+                        <span className="text-lg text-white">
                             <RiMenu4Fill />
                         </span>
                     </div>

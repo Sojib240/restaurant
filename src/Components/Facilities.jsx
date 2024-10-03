@@ -24,7 +24,7 @@ const Facilities = () => {
                                 key={item.id}
                                 className="flex flex-col items-center justify-center p-5 gap-1 w-1/2 lg:w-1/4"
                             >
-                                <span className="p-7 rounded-2xl bg-greenShade-100 text-5xl text-white mb-4">
+                                <span className="p-7 rounded-2xl bg-greenShade-100 text-5xl text-white mb-4 duration-150 transition-all hover:bg-orangeShade-300 cursor-pointer">
                                     {item.icon}
                                 </span>
                                 <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px]">

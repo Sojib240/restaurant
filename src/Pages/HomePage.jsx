@@ -6,7 +6,6 @@ import About from "../Components/About";
 import WhyUs from "../Components/WhyUs";
 import VideoGallery from "../Components/VideoGallery";
 import ContactUs from "../Components/ContactUs";
-import Footer from "../Components/Footer";
 import SignatureDishes from "../Components/SignatureDishes";
 import Testimonial from "../Components/Testimonial";
 

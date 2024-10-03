@@ -46,7 +46,7 @@ const Testimonial = () => {
     ];
     return (
         <div className="w-full pt-40 pb-28 px-5 testimonial bg-greenShade-300 relative overflow-hidden">
-            <div className="bg w-[101%] absolute -bottom-[1px] -left-[2px] rotate-180 z-40">
+            <div className="bg w-[101%] absolute -bottom-[2px] -left-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
             <div className="bg w-[101%] absolute -top-[1px]  -right-[2px] z-40">
