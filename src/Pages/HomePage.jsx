@@ -18,9 +18,9 @@ const HomePage = () => {
             <Facilities />
             <About />
             <SignatureDishes />
-            {/* <Testimonial /> */}
+            <Testimonial />
             <WhyUs />
-            {/* <VideoGallery /> */}
+            <VideoGallery />
             <ContactUs />
         </div>
     );
