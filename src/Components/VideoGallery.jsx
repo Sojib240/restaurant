@@ -14,23 +14,23 @@ const VideoGallery = () => {
     const videoGalleryData = [
         {
             id: 1,
-            video: 'https://www.youtube.com/embed/YZ84iQrbYjw?si=xQjjRJzqevhqpTop" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
         },
         {
             id: 2,
-            video: 'https://www.youtube.com/embed/eU-qPYse1JI?si=5v08m-DVuWcV3Pmu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
         },
         {
             id: 3,
-            video: 'https://www.youtube.com/embed/xOMMV_qXcQ8?si=nZSW0bTcPFzMPXV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
         },
         {
             id: 4,
-            video: 'https://www.youtube.com/embed/Rwe5Aw3KPHY?si=dj4IBQCJp9FPQB0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
         },
         {
             id: 5,
-            video: 'https://www.youtube.com/embed/njX2bu-_Vw4?si=NHGqIW6MTp9nLg9r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
+            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
         },
     ];
 
@@ -42,7 +42,7 @@ const VideoGallery = () => {
             <div className="max-w-[1300px] mx-auto">
                 <div className="slider mt-6 pb-5">
                     <Swiper
-                        loop
+                        // loop
                         slidesPerView={2}
                         spaceBetween={30}
                         breakpoints={{
@@ -70,10 +70,22 @@ const VideoGallery = () => {
                                 >
                                     <div className="flex flex-col justify-center items-center text-center h-[380px]">
                                         <iframe
+                                            title="YouTube video player"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            referrerpolicy="strict-origin-when-cross-origin"
+                                            allowfullscreen
                                             className="w-full h-full rounded-md"
                                             src={item.video}
-                                            allowfullscreen
                                         ></iframe>
+                                        ,
+                                        {/* <video
+                                            className="w-full h-full"
+                                            autoPlay
+                                            muted
+                                            loop
+                                            src={item.video}
+                                        ></video> */}
                                     </div>
                                 </SwiperSlide>
                             );

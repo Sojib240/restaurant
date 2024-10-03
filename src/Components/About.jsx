@@ -9,10 +9,14 @@ const About = () => {
             <div className="bg1 w-[101%] absolute -bottom-[1px] -left-[2px] z-40">
                 <img className="w-full" src="/wave4.svg" alt="" />
             </div>
-            <div className="w-[6%] absolute top-0 right-0 z-30 h-auto mr-10">
+
+            <div className="w-[55px] sm:w-[70px] md:w-[80px] lg:w-[80px] absolute top-3 lg:top-10 right-0 h-auto z-20 mr-[2%]">
                 <img className="w-full" src="/lamp.png" alt="" />
             </div>
-            <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-2 sm:gap-14 flex-wrap lg:flex-nowrap">
+            {/* <div className="w-[6%] absolute top-0 right-0 z-30 h-auto mr-10">
+                <img className="w-full" src="/lamp.png" alt="" />
+            </div> */}
+            <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-2 sm:gap-14 flex-wrap lg:flex-nowrap z-30">
                 <div className="w-full lg:w-1/2">
                     <h2 className="text-white text-[45px] font-Hidayatullah pb-6 text-center">
                         About us
