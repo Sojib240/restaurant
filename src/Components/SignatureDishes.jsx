@@ -53,7 +53,7 @@ const SignatureDishes = () => {
     ];
     return (
         <div className="w-full px-5 py-20 min-h-screen">
-            <div className="h-full max-w-[1500px] mx-auto">
+            <div className="h-full max-w-[1300px] mx-auto">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                     Our Signature Dishes
                 </h2>
@@ -63,7 +63,7 @@ const SignatureDishes = () => {
                             return (
                                 <div
                                     key={item.id}
-                                    className={`${item.styles} h-52  md:h-64 lg:h-80 rounded-md overflow-hidden group`}
+                                    className={`${item.styles} h-52  md:h-64 lg:h-80 rounded-3xl overflow-hidden group`}
                                 >
                                     <img
                                         className="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
