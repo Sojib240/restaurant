@@ -86,7 +86,7 @@ const ContactUs = () => {
                                         <h2 className="font-JosefinSans_bold text-[20px] uppercase pb-2 leading-none">
                                             {item.title}
                                         </h2>
-                                        <p className=" font-JosefinSans_Regular text-[18px] capitalize leading-5 w-full sm:w-1/2 lg:1/2">
+                                        <p className=" font-JosefinSans_Regular text-[18px] capitalize leading-5 w-full sm:w-1/2 lg:w-full">
                                             {item.desc}
                                         </p>
                                     </div>
