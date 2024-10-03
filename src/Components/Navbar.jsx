@@ -20,11 +20,16 @@ const Navbar = () => {
     return (
         <header className="w-full">
             <div
-                className={`navbar w-full px-6 pt-10 pb-5 absolute top-0 left-0 z-[999999999]`}
+                className={`navbar w-full px-6 pt-5 pb-5 absolute top-0 left-0 z-[999999999]`}
             >
                 <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-4">
-                    <div className="logo w-32 sm:w-40 pb-2">
+                    <div className="logo w-32 sm:w-40 lg:w-40 pb-2">
                         <img className="w-full" src="/logo_name.png" alt="" />
+                    </div>
+                    <div className="menu-btn w-6 h-6 rounded-md bg-white justify-center items-center flex lg:hidden cursor-pointer relative">
+                        <span className="text-lg text-greenShade-300">
+                            <RiMenu4Fill />
+                        </span>
                     </div>
                     <div className="menu items-center gap-3 flex md:gap-5 lg:gap-6">
                         <a
@@ -65,11 +70,6 @@ const Navbar = () => {
                             Contact
                         </a>
                     </div>
-                    <div className="menu-btn w-6 h-6 rounded-md bg-greenShade-300 justify-center items-center hidden md:hidden cursor-poinlink relative">
-                        <span className="text-lg text-white">
-                            <RiMenu4Fill />
-                        </span>
-                    </div>
                 </div>
             </div>
 
@@ -84,7 +84,7 @@ const Navbar = () => {
                     <div className="logo w-32 md:w-40 pb-2">
                         <img className="w-full" src="/logo_name.png" alt="" />
                     </div>
-                    <div className="menu items-center gap-5 lg:flex">
+                    <div className="menu items-center gap-5 hidden lg:flex">
                         <a
                             className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                             href=""
@@ -123,7 +123,7 @@ const Navbar = () => {
                             Contact
                         </a>
                     </div>
-                    <div className="menu-btn w-6 h-6 rounded-md bg-greenShade-300 justify-center items-center flex lg:hidden cursor-poinlink relative ter">
+                    <div className="menu-btn w-6 h-6 rounded-md bg-greenShade-300 justify-center items-center flex lg:hidden cursor-pointer relative">
                         <span className="text-lg text-white">
                             <RiMenu4Fill />
                         </span>
