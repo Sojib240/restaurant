@@ -10,10 +10,10 @@ const Navbar = () => {
             .querySelector(".hero")
             .getBoundingClientRect().height;
 
-        if (currentScroll >= heroHeight) {
+        if (currentScroll >= 300) {
             setnavPosition(true);
         }
-        if (currentScroll < heroHeight) {
+        if (currentScroll < 300) {
             setnavPosition(false);
         }
     });
