@@ -182,14 +182,14 @@ const Navbar = () => {
                 {/*  */}
                 <div
                     ref={menuRef}
-                    className={`fixed top-24 left-1/2 -translate-x-1/2 w-full px-5 z-[999] mt-3 max-w-[1800px] mx-auto overflow-hidden transition-all duration-300 origin-top pb-2 ${
+                    className={`fixed top-24 left-1/2 -translate-x-1/2 w-full px-5 z-[999] mt-3 max-w-[1800px] mx-auto overflow-hidden transition-all duration-300 origin-top pb-5 ${
                         first === true
                             ? "opacity-100 visible translate-y-0"
                             : "opacity-0 invisible translate-y-[10%]"
                     }
                     `}
                 >
-                    <div className="menu flex flex-col bg-white rounded-3xl border-2 overflow-hidden shadow-lg">
+                    <div className="fixed-menu flex flex-col bg-white rounded-3xl border-2 overflow-hidden">
                         <a
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
                             href=""
