@@ -101,7 +101,7 @@ const Navbar = () => {
                 </div>
                 {/*  */}
                 <div
-                    className={`fixed-navbar w-full px-5 py-2 ${
+                    className={`fixed-navbar w-full px-5 py-2 bg-white ${
                         navPosition === true
                             ? "-translate-y-0"
                             : "-translate-y-[100%]"
@@ -138,38 +138,38 @@ const Navbar = () => {
                             )}
                             <div className="main-nav-menu flex items-center gap-5 pt-3">
                                 <a
-                                    className="link relative font-JosefinSans_semibold capitalize text-black text-lg"
+                                    className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                     href=""
                                 >
                                     Home
                                 </a>
                                 <a
-                                    className="link relative font-JosefinSans_semibold capitalize text-black text-lg"
+                                    className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                     href=""
                                 >
                                     About
                                 </a>
                                 <a
-                                    className="link relative font-JosefinSans_semibold capitalize text-black text-lg"
+                                    className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                     href=""
                                 >
                                     Menu
                                 </a>
                                 <a
-                                    className="link relative font-JosefinSans_semibold capitalize text-black text-lg"
+                                    className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                     href=""
                                 >
                                     Must Try
                                 </a>
                                 <a
-                                    className="link relative font-JosefinSans_semibold capitalize text-black text-lg"
+                                    className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                     href=""
                                 >
                                     Blog
                                 </a>
 
                                 <a
-                                    className="link relative font-JosefinSans_semibold capitalize text-black text-lg"
+                                    className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                     href=""
                                 >
                                     Contact
