@@ -91,3 +91,10 @@ span.swiper-pagination-bullet {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+
+@media (max-width:768px) {
+    .main-nav-menu {
+        display: none;
+    }
+}

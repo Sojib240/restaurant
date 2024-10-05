@@ -78,7 +78,6 @@ const VideoGallery = () => {
                                             className="w-full h-full rounded-md"
                                             src={item.video}
                                         ></iframe>
-                                        ,
                                         {/* <video
                                             className="w-full h-full"
                                             autoPlay
