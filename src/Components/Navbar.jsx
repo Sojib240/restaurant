@@ -49,9 +49,9 @@ const Navbar = () => {
                             {first === true && (
                                 <div
                                     onClick={() => setfirst(false)}
-                                    className="menu-btn w-6 h-6 rounded-md bg-white justify-center items-center flex cursor-pointer relative md:hidden "
+                                    className="menu-btn w-6 h-6 rounded-md bg-white justify-center items-center flex cursor-pointer relative md:hidden group"
                                 >
-                                    <span className="text-lg text-greenShade-300 hover:rotate-90 duration-150 transition-all">
+                                    <span className="text-lg text-greenShade-300 group-hover:rotate-90 duration-150 transition-all">
                                         <MdClose />
                                     </span>
                                 </div>
