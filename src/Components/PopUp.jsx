@@ -18,7 +18,7 @@ const PopUp = ({ popup, setpopup }) => {
                 <div className="logo w-40 mx-auto">
                     <img className="w-full" src="/logo.png" alt="" />
                 </div>
-                <div className="w-full flex items-end justify-end gap-3 flex-col mt-10">
+                <div className="w-full flex items-end justify-end gap-3 flex-col mt-5">
                     <a
                         href="https://food.grab.com/my/en/restaurant/lazeez-arabic-restaurant-and-grill-bukit-bintang-delivery/1-C3LANN43AKMTWE"
                         className="flex justify-between items-center w-full bg-gradient-to-r from-[#e4d6c8] from-10% via-[#e7b894] via-60% to-[#64c484] to-95% overflow-hidden px-3 rounded-xl h-12 font-JosefinSans_semibold relative"
