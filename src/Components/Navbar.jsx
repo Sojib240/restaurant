@@ -105,7 +105,7 @@ const Navbar = () => {
                         navPosition === true
                             ? "-translate-y-0"
                             : "-translate-y-[100%]"
-                    } fixed top-0 left-0  z-[999999999] lg:px-12 transition-all duration-500 `}
+                    } fixed top-0 left-0  z-[999] lg:px-12 transition-all duration-500 `}
                 >
                     <div className="max-w-[1800px] mx-auto w-full h-full">
                         <div className="flex justify-between items-center w-full md:w-auto h-full">

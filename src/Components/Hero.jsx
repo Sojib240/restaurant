@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const Hero = ({ setpopup }) => {
     return (
         <div className="heroBg hero w-full px-5 bg-greenShade-300 relative z-50 overflow-hidden">
             {/* <div className="w-[50%] absolute right-0 bottom-0 h-auto">
@@ -25,15 +25,24 @@ const Hero = () => {
                             </h2>
                         </div>
                         <div className="flex gap-2 md:gap-3 justify-center md:justify-start flex-wrap">
-                            <button className="text-white bg-orangeShade-300 rounded-full  capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular  px-6 py-2 md:px-8 md:py-2 lg:px-10 lg:py-3 text-[15px] md:text-lg lg:text-xl">
+                            <button
+                                onClick={() => setpopup(true)}
+                                className="text-white bg-orangeShade-300 rounded-full  capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular  px-6 py-2 md:px-8 md:py-2 lg:px-10 lg:py-3 text-[15px] md:text-lg lg:text-xl"
+                            >
                                 order online
                             </button>
-                            <button className="text-white bg-orangeShade-300 rounded-full  capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular  px-6 py-2 md:px-8 md:py-2 lg:px-10 lg:py-3 text-[15px] md:text-lg lg:text-xl">
+                            <a
+                                href="https://lazeezarg.com/menu/"
+                                className="text-white bg-orangeShade-300 rounded-full  capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular  px-6 py-2 md:px-8 md:py-2 lg:px-10 lg:py-3 text-[15px] md:text-lg lg:text-xl"
+                            >
                                 Menu
-                            </button>
-                            <button className="text-white bg-orangeShade-300 rounded-full  capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular  px-6 py-2 md:px-8 md:py-2 lg:px-10 lg:py-3 text-[15px] md:text-lg lg:text-xl">
+                            </a>
+                            <a
+                                href="whatsapp:contact=015555555555@s.whatsapp.com&message='Wanting to book a table'"
+                                className="text-white bg-orangeShade-300 rounded-full  capitalize transition-all duration-100 border-transparent border hover:border-white hover:bg-transparent font-JosefinSans_Regular  px-6 py-2 md:px-8 md:py-2 lg:px-10 lg:py-3 text-[15px] md:text-lg lg:text-xl"
+                            >
                                 book a table
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Hero from "../Components/Hero";
 import Serve from "../Components/Serve";
 import Facilities from "../Components/Facilities";
@@ -8,19 +8,22 @@ import VideoGallery from "../Components/VideoGallery";
 import ContactUs from "../Components/ContactUs";
 import SignatureDishes from "../Components/SignatureDishes";
 import Testimonial from "../Components/Testimonial";
+import PopUp from "../Components/PopUp";
 
 const HomePage = () => {
+    const [popup, setpopup] = useState(false);
     return (
         <div className="w-full h-full">
-            <Hero />
+            <Hero setpopup={setpopup} />
             <Serve />
-            <Facilities />
+            <Facilities setpopup={setpopup} />
             <About />
             <SignatureDishes />
             <Testimonial />
             <WhyUs />
             <VideoGallery />
             <ContactUs />
+            <PopUp popup={popup} setpopup={setpopup} />
         </div>
     );
 };

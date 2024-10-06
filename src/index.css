@@ -8,11 +8,6 @@
 }
 
 @font-face {
-    font-family: 'Serenata_Regular';
-    src: url('../src/Fonts/Serenata-Vantages-Regular.woff2') format('woff2'),
-}
-
-@font-face {
     font-family: 'JosefinSans_Regular';
     src: url('../src/Fonts/JosefinSans-Regular.woff2') format('woff2'),
 }
@@ -94,4 +89,10 @@ span.swiper-pagination-bullet {
     .main-nav-menu {
         display: none;
     }
+}
+
+.popup1 {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
