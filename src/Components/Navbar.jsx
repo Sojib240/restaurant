@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiMenu4Fill } from "react-icons/ri";
 import { MdClose } from "react-icons/md";
+import { HashLink as Link } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 
 const Navbar = () => {
     const [navPosition, setnavPosition] = useState(false);
@@ -57,30 +58,30 @@ const Navbar = () => {
                                 </div>
                             )}
                             <div className="main-nav-menu flex items-center gap-5 pt-3">
-                                <a
+                                <Link
+                                    to="#home"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
-                                    href=""
                                 >
                                     Home
-                                </a>
-                                <a
+                                </Link>
+                                <Link
+                                    to="#about"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
-                                    href=""
                                 >
                                     About
-                                </a>
+                                </Link>
                                 <a
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
-                                    href=""
+                                    href="https://lazeezarg.com/menu/"
                                 >
                                     Menu
                                 </a>
-                                <a
+                                <Link
+                                    to="#signature_dishes"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
-                                    href=""
                                 >
                                     Must Try
-                                </a>
+                                </Link>
                                 <a
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                                     href=""
@@ -88,12 +89,12 @@ const Navbar = () => {
                                     Blog
                                 </a>
 
-                                <a
+                                <Link
+                                    to="#contact"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
-                                    href=""
                                 >
                                     Contact
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         {/*  */}
@@ -137,30 +138,30 @@ const Navbar = () => {
                                 </div>
                             )}
                             <div className="main-nav-menu flex items-center gap-5 pt-3">
-                                <a
+                                <Link
+                                    to="#home"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
-                                    href=""
                                 >
                                     Home
-                                </a>
-                                <a
+                                </Link>
+                                <Link
+                                    to="#about"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
-                                    href=""
                                 >
                                     About
-                                </a>
+                                </Link>
                                 <a
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
-                                    href=""
+                                    href="https://lazeezarg.com/menu/"
                                 >
                                     Menu
                                 </a>
-                                <a
+                                <Link
+                                    to="#signature_dishes"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
-                                    href=""
                                 >
                                     Must Try
-                                </a>
+                                </Link>
                                 <a
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                     href=""
@@ -168,12 +169,12 @@ const Navbar = () => {
                                     Blog
                                 </a>
 
-                                <a
+                                <Link
+                                    to="#contact"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
-                                    href=""
                                 >
                                     Contact
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         {/*  */}
@@ -190,30 +191,31 @@ const Navbar = () => {
                     `}
                 >
                     <div className="fixed-menu flex flex-col bg-white rounded-3xl border-2 overflow-hidden">
-                        <a
+                        <Link
+                            to="#home"
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
-                            href=""
                         >
-                            Home <span>1</span>
-                        </a>
-                        <a
+                            Home
+                        </Link>
+                        <Link to='#about'
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
                             href=""
                         >
                             About
-                        </a>
+                        </Link>
                         <a
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
-                            href=""
+                            href="https://lazeezarg.com/menu/"
                         >
                             Menu
                         </a>
-                        <a
+                        <Link
+                            to="#signature_dishes"
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
                             href=""
                         >
                             Must Try
-                        </a>
+                        </Link>
                         <a
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
                             href=""
@@ -221,12 +223,12 @@ const Navbar = () => {
                             Blog
                         </a>
 
-                        <a
+                        <Link
+                            to="#contact"
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-none px-5 hover:bg-orangeShade-300"
-                            href=""
                         >
                             Contact
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </header>
