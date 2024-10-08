@@ -21,7 +21,7 @@ const HomePage = () => {
             <SignatureDishes />
             <Reviews />
             <WhyUs />
-            {/* <VideoGallery /> */}
+            <VideoGallery />
             <ContactUs />
             <PopUp popup={popup} setpopup={setpopup} />
         </div>
