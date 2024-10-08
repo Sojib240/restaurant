@@ -7,7 +7,7 @@ import WhyUs from "../Components/WhyUs";
 import VideoGallery from "../Components/VideoGallery";
 import ContactUs from "../Components/ContactUs";
 import SignatureDishes from "../Components/SignatureDishes";
-import Testimonial from "../Components/Testimonial";
+import Reviews from "../Components/Reviews";
 import PopUp from "../Components/PopUp";
 
 const HomePage = () => {
@@ -19,7 +19,7 @@ const HomePage = () => {
             <Facilities setpopup={setpopup} />
             <About />
             <SignatureDishes />
-            <Testimonial />
+            <Reviews />
             <WhyUs />
             {/* <VideoGallery /> */}
             <ContactUs />

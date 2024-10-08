@@ -8,75 +8,81 @@ const SignatureDishes = () => {
     const signatureData = [
         {
             id: 1,
-            image: "/Extra lamb.JPG",
+            image: "/Lamb-Tagine-2.jpg",
             caption: "cap1",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
         {
             id: 2,
-            image: "/Ghormah_sabsy.JPG",
+            image: "/lamb_shawarma.JPG",
             caption: "cap1",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
         {
             id: 3,
-            image: "/Grilled Chicken.JPG",
+            image: "/LargeMixedGrills.JPG",
             caption: "cap1",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
         {
             id: 4,
-            image: "/Grilled fish.JPG",
+            image: "/CupKunafa_chocolate1.jpg",
             caption: "cap1",
             styles: "col-span-2 md:col-span-2 lg:col-span-3",
         },
         {
             id: 5,
-            image: "/GrilledSteak3.JPG",
+            image: "/Sandwich-shish-kebab.JPG",
             caption: "cap1",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
         {
             id: 6,
-            image: "/HaneedChicken.JPG",
+            image: "/Ghormah_sabsy.JPG",
             caption: "cap1",
-            styles: "col-span-2 md:col-span-2 lg:col-span-2",
+            styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
         {
             id: 7,
-            image: "/HaneedLamb.JPG",
+            image: "/OH5A4283.JPG",
             caption: "cap1",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
         {
             id: 8,
-            image: "/KabsahLamb.JPG",
+            image: "/sambussa.JPG",
             caption: "cap1",
-            styles: "col-span-2 md:col-span-2 lg:col-span-1",
+            styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
         {
             id: 9,
-            image: "/LadiesFinger_rice.JPG",
+            image: "/MandyLamb_.JPG",
             caption: "cap2",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
         {
             id: 10,
-            image: "/Mandy_lamb.JPG",
+            image: "/HaneedLamb.JPG",
             caption: "cap3",
-            styles: "col-span-2 md:col-span-2 lg:col-span-1",
+            styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
         {
             id: 11,
-            image: "/Spicypotato.JPG",
+            image: "/sm_mix_appetizer.JPG",
             caption: "cap4",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
         {
             id: 12,
-            image: "/LambTagine.jpg",
+            image: "/waffle with ice cream.jpg",
             caption: "cap5",
-            styles: "col-span-2 md:col-span-2 lg:col-span-3",
+            styles: "col-span-2 md:col-span-2 lg:col-span-1",
+        },
+        {
+            id: 13,
+            image: "/ShishTawook.JPG",
+            caption: "cap5",
+            styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
     ];
     return (
@@ -87,20 +93,6 @@ const SignatureDishes = () => {
                 </h2>
                 <div className="main h-full flex w-full">
                     <div className="w-full">
-                        {/* {signatureData.map((item) => {
-                            return (
-                                <div
-                                    key={item.id}
-                                    className={`${item.styles} h-52  md:h-64 lg:h-80 rounded-3xl overflow-hidden group`}
-                                >
-                                    <img
-                                        className="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-                                        src={item.image}
-                                        alt=""
-                                    />
-                                </div>
-                            );
-                        })} */}
                         <SlideshowLightbox
                             backgroundColor="rgba(0, 0, 0, 0.8)"
                             iconColor={"white"}
@@ -115,7 +107,7 @@ const SignatureDishes = () => {
                                         key={item.id}
                                         className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden group object-cover`}
                                         src={item.image}
-                                        alt=""
+                                        alt="lorem10"
                                     />
                                 );
                             })}

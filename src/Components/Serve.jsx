@@ -4,28 +4,28 @@ const Serve = () => {
     const cardData = [
         {
             id: 1,
-            image: "/Extra lamb.JPG",
+            image: "/sm_mix_appetizer.JPG",
             // image2: "/item2.webp",
             title: "starters",
             desc: "enjoy variety of lip smacking starters made by our skilled and expert chefs",
         },
         {
             id: 2,
-            image: "/Ghormah_sabsy.JPG",
+            image: "/HaneedLamb.JPG",
             // image2: "/item3.webp",
             title: "main course",
             desc: "enjoy a wide range of delectable dishes cooked to perfection by our chefs",
         },
         {
             id: 3,
-            image: "/GrilledSteak3.JPG",
+            image: "/CupKunafa_chocolate1.jpg",
             // image2: "/item4.webp",
             title: "desserts",
             desc: "surprise your taste buds with our delicious and authentic arabic desserts",
         },
         {
             id: 4,
-            image: "/HaneedChicken.JPG",
+            image: "/OH5A4283.JPG",
             // image2: "/item1.webp",
             title: "drinks",
             desc: "we serve a wide range of non-alcoholic drinks to satiate our patrons",
@@ -44,7 +44,7 @@ const Serve = () => {
                                 key={item.id}
                                 className="card group w-full pb-10 sm:w-1/2 sm:p-4 lg:w-1/4 lg:p-4"
                             >
-                                <div className="image bg-greenShade-300 overflow-hidden rounded-tl-[50px] rounded-tr-[50px]  relative">
+                                <div className="image overflow-hidden rounded-tl-[50px] rounded-tr-[50px]  relative">
                                     <div className="bg1 w-[102%] absolute -bottom-[1px] -left-[2px] z-20">
                                         <img
                                             className="w-full"

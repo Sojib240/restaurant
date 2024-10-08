@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="w-full pt-20 pb-16 sm:py-32 px-5 flex items-center bg-greenShade-300 relative overflow-hidden">
+        <div className="background bg-contain bg-repeat bg-center w-full pt-20 pb-16 sm:py-32 px-5 flex items-center bg-greenShade-300 relative overflow-hidden">
             <div className="bg w-[101%] absolute -top-[1px] -right-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave4.svg" alt="" />
             </div>
@@ -13,8 +13,12 @@ const About = () => {
             <div className="w-[55px] sm:w-[70px] md:w-[80px] lg:w-[80px] absolute top-3 lg:top-10 right-0 h-auto z-20 mr-[2%]">
                 <img className="w-full" src="/lamp.png" alt="" />
             </div>
-            {/* <div className="w-[6%] absolute top-0 right-0 z-30 h-auto mr-10">
-                <img className="w-full" src="/lamp.png" alt="" />
+            {/* <div className="w-full h-full absolute top-0 left-0 z-30 mr-10 opacity-10">
+                <img
+                    className="w-full h-full object-cover"
+                    src="/bg1.png"
+                    alt=""
+                />
             </div> */}
             <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-2 sm:gap-14 flex-wrap lg:flex-nowrap z-30">
                 <div className="w-full lg:w-1/2">
